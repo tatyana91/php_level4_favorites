@@ -1,0 +1,57 @@
+html {font-family: Ubuntu, sans-serif;}
+* {box-sizing: border-box;}
+.content {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+.header {
+    text-align: center;
+}
+.header__title {
+    padding: 0;
+    margin: 0 0 24px 0;
+}
+.favorites {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.favorites__item-wrap {
+    -webkit-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    padding: 16px;
+    line-height: 20px;
+    flex-basis: calc(100% / 3);
+}
+.favorites__item {
+    border-radius: 5px;
+    background: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    padding: 24px 16px;
+}
+.favorites__title {
+    text-align: center;
+    margin: 16px 0 24px;
+}
+.favorites__author {
+    font-size: 18px;
+}
+.favorites__link {
+    color: #514bad;
+    text-decoration: none;
+}
+.favorites__link:hover {
+    text-decoration: underline;
+}
+.favorites__author-links {
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.favorites__author-links:last-of-type{
+    margin-bottom: 0;
+}
